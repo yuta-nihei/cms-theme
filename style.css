@@ -11,6 +11,7 @@ body {
   font-family: "メイリオ", "Hiragino Kaku Gothic Pro", sans-serif;
 }
 
+/* コンテナ */
 .container {
   max-width: 650px;
   margin-left: auto;
@@ -19,6 +20,7 @@ body {
   padding-right: 15px;
 }
 
+/* 記事(アーティクル) */
 article {
   margin-bottom: 40px;
 }
@@ -34,6 +36,7 @@ article h1 a {
   text-decoration: none;
 }
 
+/* 記事情報 */
 .postinfo {
   margin-top: 15px;
   font-size: 14px;
@@ -61,6 +64,7 @@ article h1 a {
   text-decoration: none;
 }
 
+/* ナビゲーション */
 .pagenav .old a {
   float: left;
 }
@@ -75,6 +79,7 @@ article h1 a {
   margin-bottom: 40px;
 }
 
+/* ヘッダー */
 header {
   margin-bottom: 40px;
   background-color: #4a5f7e;
@@ -86,6 +91,7 @@ header a {
   text-decoration: none;
 }
 
+/* サイトインフォメーション */
 .siteinfo {
   overflow: hidden;
   padding-top: 14px;
@@ -106,10 +112,93 @@ header a {
   font-size: 12px;
 }
 
+/* フッター */
 footer {
   margin-top: 40px;
   padding-top: 14px;
   padding-bottom: 14px;
   background-color: #4a5f7e;
   color: #ffffff;
+}
+
+/* アーティクル画像 */
+article img {
+  border: none;
+  max-width: 100%;
+  height: auto;
+}
+
+/* 中央揃え */
+.aligncenter {
+  display: block;
+  margin: 30px auto 30px auto;
+}
+
+.wp-block-image figcaption {
+  max-width: 100%;
+  margin: 0;
+  color: #666666;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* ブログメニュー */
+.blogmenu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.blogmenu .widget {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #e8e8e8;
+}
+
+.blogmenu .widgettitle {
+  margin: 10px 0 20px 0;
+  border-right: solid 10px #4a5f7e;
+  color: #4a5f7e;
+  font-size: 14px;
+}
+
+.blogmenu li a {
+  display: block;
+  padding: 10px 5px;
+  color: #666666;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.blogmenu li a:hover {
+  background-color: #ffffff;
+}
+
+/* アーカイブタイトル */
+.archive-title {
+  margin: 0 0 40px 0;
+  background-color: #eeeeee;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.archive-title i {
+  padding: 15px;
+  background-color: #4a5f7e;
+  color: #ffffff;
+}
+
+#respond p {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+#respond label {
+  font-size: 14px;
+}
+
+#respond input,
+#respond textarea {
+  width: 100%;
 }
