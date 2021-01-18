@@ -11,14 +11,20 @@ body {
   font-family: "メイリオ", "Hiragino Kaku Gothic Pro", sans-serif;
 }
 
-/* 共通クラス */
+/*===============================
+	共通クラス
+================================*/
+
 /* 中央揃え */
 .aligncenter {
   display: block;
   margin: 30px auto 30px auto;
 }
 
-/* コンテナ */
+/*===============================
+	全体
+================================*/
+
 .container {
   max-width: 650px;
   margin-left: auto;
@@ -27,7 +33,10 @@ body {
   padding-right: 15px;
 }
 
-/* 記事(アーティクル) */
+/*===============================
+	記事
+================================*/
+
 article {
   margin-bottom: 40px;
 }
@@ -41,6 +50,13 @@ article h1 {
 article h1 a {
   color: #000000;
   text-decoration: none;
+}
+
+/* アーティクル画像 */
+article img {
+  border: none;
+  max-width: 100%;
+  height: auto;
 }
 
 /* 記事情報 */
@@ -62,6 +78,10 @@ article h1 a {
   color: #888888;
 }
 
+/*===============================
+	ナビゲーション
+================================*/
+
 .pagenav a {
   padding: 5px 10px;
   border: solid 1px #cccccc;
@@ -71,7 +91,6 @@ article h1 a {
   text-decoration: none;
 }
 
-/* ナビゲーション */
 .pagenav .old a {
   float: left;
 }
@@ -86,7 +105,10 @@ article h1 a {
   margin-bottom: 40px;
 }
 
-/* ヘッダー */
+/*===============================
+	ヘッダー
+================================*/
+
 header {
   margin-bottom: 40px;
   background-color: #4a5f7e;
@@ -98,7 +120,10 @@ header a {
   text-decoration: none;
 }
 
-/* サイトインフォメーション */
+/*===============================
+	サイトインフォメーション
+================================*/
+
 .siteinfo {
   overflow: hidden;
   padding-top: 14px;
@@ -128,13 +153,6 @@ footer {
   color: #ffffff;
 }
 
-/* アーティクル画像 */
-article img {
-  border: none;
-  max-width: 100%;
-  height: auto;
-}
-
 .wp-block-image figcaption {
   max-width: 100%;
   margin: 0;
@@ -143,7 +161,10 @@ article img {
   text-align: center;
 }
 
-/* ブログメニュー */
+/*===============================
+	メニュー
+================================*/
+
 .blogmenu ul {
   margin: 0;
   padding: 0;
@@ -175,7 +196,10 @@ article img {
   background-color: #ffffff;
 }
 
-/* アーカイブタイトル */
+/*===============================
+	記事一覧
+================================*/
+
 .archive-title {
   margin: 0 0 40px 0;
   background-color: #eeeeee;
@@ -188,6 +212,10 @@ article img {
   background-color: #4a5f7e;
   color: #ffffff;
 }
+
+/*===============================
+	コメント
+================================*/
 
 #respond p {
   margin-top: 0;
