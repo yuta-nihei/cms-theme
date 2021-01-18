@@ -11,6 +11,13 @@ body {
   font-family: "メイリオ", "Hiragino Kaku Gothic Pro", sans-serif;
 }
 
+/* 共通クラス */
+/* 中央揃え */
+.aligncenter {
+  display: block;
+  margin: 30px auto 30px auto;
+}
+
 /* コンテナ */
 .container {
   max-width: 650px;
@@ -126,12 +133,6 @@ article img {
   border: none;
   max-width: 100%;
   height: auto;
-}
-
-/* 中央揃え */
-.aligncenter {
-  display: block;
-  margin: 30px auto 30px auto;
 }
 
 .wp-block-image figcaption {
