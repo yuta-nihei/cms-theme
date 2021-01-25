@@ -132,6 +132,12 @@ header a {
   overflow: hidden;
   padding-top: 14px;
   padding-bottom: 14px;
+  background-color: #ffffff;
+  color: #4a5f7e;
+}
+
+.siteinfo a {
+  color: #4a5f7e;
 }
 
 .siteinfo h1 {
@@ -146,6 +152,37 @@ header a {
   margin: 0;
   margin-top: 5px;
   font-size: 12px;
+}
+
+/*===============================
+  グローバルナビゲーション
+================================*/
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+  margin-right: 15px;
+  text-align: center;
+}
+
+nav li a {
+  display: block;
+  padding: 15px 0 10px;
+  border-bottom: 5px solid transparent;
+}
+
+nav li a:hover {
+  border-bottom: 5px solid #00ccff;
+}
+
+nav li.current-menu-item a {
+  border-bottom-color: #e6cc1c;
 }
 
 /* フッター */
@@ -289,4 +326,29 @@ footer {
 
 #comments .comment-content {
   margin-left: 30px;
+}
+
+/*===============================
+  お問い合わせ
+================================*/
+.wpcf7 input,
+.wpcf7 textarea {
+  width: 100%;
+  padding: 5px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.wpcf7 input[type="submit"] {
+  width: 200px;
+  padding: 10px;
+  border: none;
+  background-color: #e6cc1c;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+
+.wpcf7 input[type="submit"]:hover {
+  background-color: #ffaa00;
 }
