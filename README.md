@@ -1,6 +1,9 @@
 ## CMS I
 
-- Update: 20210108
+- Update: 20210125
   - index.php
-  - comment.php
+  - page.php
+  - header.php
+  - footer.php
   - style.css
+  - functions.php
